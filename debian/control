@@ -1,8 +1,9 @@
 Source: ruby2.5
 Section: ruby
 Priority: optional
-Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
-Uploaders: Antonio Terceiro <terceiro@debian.org>,
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Antonio Terceiro <terceiro@debian.org>,
            Chris Hofstaedtler <zeha@debian.org>
 Build-Depends: bison,
                chrpath,
@@ -30,6 +31,7 @@ Standards-Version: 4.1.5
 Homepage: http://www.ruby-lang.org/
 Vcs-Git: https://salsa.debian.org/ruby-team/ruby.git
 Vcs-Browser: https://salsa.debian.org/ruby-team/ruby
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ buster
 
 Package: ruby2.5
 Multi-Arch: allowed
