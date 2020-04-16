@@ -1,6 +1,8 @@
 ruby2.5 (2.5.5-3+deb10u1pexip1) pexip; urgency=medium
 
   * Prepare Pexip packaging
+  * Use bundled digest
+  * Change to depend on openssl 1.0
 
  -- Vincent Sanders <vince@pexip.com>  Sat, 15 Feb 2020 17:47:54 +0000
 
