@@ -1,3 +1,18 @@
+ruby2.5 (2.5.5-3+deb10u2pexip1) pexip; urgency=medium
+
+  * New upstream release
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Mon, 13 Jul 2020 12:04:56 +0100
+
+ruby2.5 (2.5.5-3+deb10u2) buster-security; urgency=high
+
+  * Non-maintainer upload by the Security Team.
+  * Add patch to fix:
+    - CVE-2020-10663: unsafe object creation vulnerability in JSON.
+    - CVE-2020-10933: do not return uninitialized buffer.
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Sat, 04 Jul 2020 00:07:58 +0530
+
 ruby2.5 (2.5.5-3+deb10u1pexip1) pexip; urgency=medium
 
   * Prepare Pexip packaging
